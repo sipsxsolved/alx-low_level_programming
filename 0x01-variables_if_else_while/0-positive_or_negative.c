@@ -3,7 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
+ * main - assign a random number to the variable n each time
+ * it is executed. Complete the source code in order to
+ * print whether the number stored in the variable n is
+ * positive or negative.
  * Return: Always 0.
  */
 int main(void)
@@ -13,10 +16,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
-		printf("%o is negative", n);
+		printf("%o is negative\n", n);
 	else if (n > 0)
-		printf("%o is positive", n);
+		printf("%o is positive\n", n);
 	else if (n == 0)
-		printf("%o is zero", n);
+		printf("%o is zero\n", n);
 	return (0);
 }
