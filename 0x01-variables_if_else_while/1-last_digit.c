@@ -9,6 +9,7 @@
 int main(void)
 {
 	int n, lastD;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	lastD = n % 10;
