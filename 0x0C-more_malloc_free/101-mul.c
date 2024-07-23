@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
   * _isdigit - tells if the string consists of digits
   * @argv: pointer to current item in argument
@@ -19,6 +20,7 @@ int _isdigit(char *argv)
 	}
 	return (0);
 }
+
 /**
   * _atoi - converts a string of ascii digits to the values they represent
   * @s: pointer to the source string
@@ -40,6 +42,7 @@ int _atoi(char *s)
 	}
 	return (result);
 }
+
 /**
   * main - main function call
   * @argc: argument count
@@ -50,7 +53,6 @@ int main(int argc, char *argv[])
 {
 	int i;
 
-	malloc();
 	if (argc != 3)
 	{
 		printf("Error\n");
