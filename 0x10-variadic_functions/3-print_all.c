@@ -60,6 +60,7 @@ void print_all(const char * const format, ...)
 * Description: a function that prints a charater
 * Return: void
 */
+
 void print_char(va_list arg)
 {
 	char c;
